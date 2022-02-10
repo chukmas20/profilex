@@ -17,24 +17,21 @@ const About = () => {
             <div className="a-right">
                  <h1 className="a-title"> About Me</h1>
                  <p className="a-sub">
-                     In publishing and graphic design,
-                      Lorem ipsum is a placeholder text commonly
+                      I am a passionate software developer who has single handedly designed and built applications
+                      with both front and backend functionalities as well as collaborating with teams to create applications.
+                      I also have product management experience.
+
                  </p>
                  <p className="a-desc">
-                    In publishing and graphic design,
-                    Lorem ipsum is a placeholder text commonly
-                    used to demonstrate the visual form of a document
-                     or a typeface without relying on meaningful content.
-                    Lorem ipsum may be used as a placeholder before final copy is available.
+                   
                  </p>
                  <div className="a-award">
                      <img src={Award} alt="award" className="a-award-img"  />
                      <div className="a-award-texts">
                          <h4 className="a-award-title">
-                            Lorem ipsum may be used as a placeholder before final copy is available.
                          </h4>
                          <p className="a-award-desc">
-                            Lorem ipsum may be used as a placeholder before final copy is available.  
+                             With my skills and experience level, we can build award winning applications 
                          </p>
                      </div>
                  </div>

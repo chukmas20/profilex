@@ -29,7 +29,7 @@ const Intro = () => {
                     </p>
                 </div>
             </div>
-            <svg
+            {/* <svg
                 width="75"
                 height="75"
                 viewBox="0 0 75 75"
@@ -84,7 +84,7 @@ const Intro = () => {
               />
             </g>
           </g>
-        </svg>
+        </svg> */}
             <div className="i-right">
                 <div className="i-bg"></div>
                 <img src={Me} alt="man" className="i-img"  />

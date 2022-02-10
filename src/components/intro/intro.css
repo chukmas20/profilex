@@ -106,3 +106,30 @@
  .c-right{
      flex:1
  }
+
+  @media screen and (max-width: 480px){
+    .i{
+         flex-wrap: wrap;
+         /* flex-direction: column; */
+         /* padding: auto;   */
+   }
+    
+    .i-left-wrapper{
+       padding: 10px;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       height: 100%;
+   }
+   .i-img{
+       border-radius: 0%;
+       height: 100%;
+       width: 80%;
+   }
+   
+   .i-desc{
+       display:none;
+   }
+
+   
+ }

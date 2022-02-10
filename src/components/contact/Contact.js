@@ -57,16 +57,14 @@ const Contact = () => {
                  </div>
                  <div className="c-right">
                      <p className="c-desc">
-                         <b>It is a long established fact</b>
-                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                          when an unknown printer took a galley
+                         <b>Kindly send a message
+                           by filling out the form below. Please enter your details correctly,</b>
                      </p>
                      <form ref={formRef} onSubmit={handleSubmit}>
-                          <input  style={{background: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
-                          <input style={{background: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject" />
-                          <input style={{background: darkMode && "#333"}} type="text" placeholder="Email" name="user_name" />
-                          <textarea style={{background: darkMode && "#333"}} rows="5"  placeholder="Message" name="message" />
+                          <input required style={{background: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
+                          <input required style={{background: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject" />
+                          <input required style={{background: darkMode && "#333"}} type="text" placeholder="Email" name="user_name" />
+                          <textarea required style={{background: darkMode && "#333"}} rows="5"  placeholder="Message" name="message" />
                           <button> Submit </button>
                            {done && (
                                <h3 className="success"> Thank You, Your message has been received</h3>

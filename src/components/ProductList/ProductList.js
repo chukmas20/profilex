@@ -7,13 +7,9 @@ const ProductList = () => {
     return (
         <div className="pl">
             <div className="pl-texts">
-               <h1 className="pl-title"> Get good quality</h1>
+               <h1 className="pl-title">Some Completed Projects</h1>
                <p className="pl-desc">
-                   In publishing and graphic design,
-                    Lorem ipsum is a placeholder text commonly
-                    used to demonstrate the visual form of a document
-                     or a typeface without relying on meaningful content.
-                    Lorem ipsum may be used as a placeholder before final copy is available
+                   You may click on any of the images below to view a completed project in your browser
                </p>
             </div>
             <div className="pl-list">
